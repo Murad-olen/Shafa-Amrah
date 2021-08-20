@@ -18,8 +18,29 @@ footer {
   padding: 15px;
 }
 
-h1, h2, h3, h4, h5, h6, p, strong {
+h1, h2, h3, h4, h5, h6, p, strong, a {
   font-family: 'Montserrat', sans-serif;
+}
+
+.div1 {
+  margin-bottom: 200px;
+}
+
+.div2 {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.a_href {
+  margin: 85px;
+}
+
+.image {
+  margin: 30px;
 }
 
 .text-align {
@@ -32,6 +53,8 @@ h1, h2, h3, h4, h5, h6, p, strong {
 
 .heading-style-1 {
   text-align: center;
+  color: white;
+  margin: 0;
 }
 
 .heading-style-2 {
