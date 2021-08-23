@@ -9,6 +9,10 @@ body {
   flex-direction: column;
 }
 
+div {
+  overflow: hidden;
+}
+
 footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -28,10 +32,12 @@ h1, h2, h3, h4, h5, h6, p, strong, a {
 
 #paragraphs {
   min-height: 100px;
+  min-width: 200px;
 }
 
 #diplomas {
   min-height: 30px;
+  min-width:
 }
 
 #diplomas {
