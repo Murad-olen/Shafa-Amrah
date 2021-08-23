@@ -22,6 +22,30 @@ h1, h2, h3, h4, h5, h6, p, strong, a {
   font-family: 'Montserrat', sans-serif;
 }
 
+#navbar {
+  min-height: 50px;
+}
+
+#paragraphs {
+  min-height: 100px;
+}
+
+#diplomas {
+  min-height: 30px;
+}
+
+#diplomas {
+  min-height: 120px;
+}
+
+#rank {
+  min-height: 20px;
+}
+
+#footer {
+  min-height: 40px;
+}
+
 .width-height-image {
   width: 900px;
   height: 100px;
