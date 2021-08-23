@@ -3,10 +3,14 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   padding-top: 65px;
-  background-color: #8FC1D4;
+  background-color: #5C527F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+input {
+  margin: 30px;
 }
 
 div {
@@ -24,32 +28,6 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p, strong, a {
   font-family: 'Montserrat', sans-serif;
-}
-
-#navbar {
-  min-height: 50px;
-}
-
-#paragraphs {
-  margin-top: 20%;
-  min-height: 100px;
-  min-width: 200px;
-}
-
-#diplomas {
-  min-height: 30px;
-}
-
-#diplomas {
-  min-height: 120px;
-}
-
-#rank {
-  min-height: 20px;
-}
-
-#footer {
-  min-height: 40px;
 }
 
 .width-height-image {
@@ -120,7 +98,8 @@ h1, h2, h3, h4, h5, h6, p, strong, a {
 }
 
 .navbar {
-  width: 98.8%;
+  z-index: 1;
+  width: 100%;
   background-color: #B61919;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
